@@ -1,0 +1,4 @@
+DROP TABLE IF EXISTS ltb.appointments;
+DROP TABLE IF EXISTS ltb.lawyers;
+DROP TABLE IF EXISTS ltb.users;
+DROP SCHEMA IF EXISTS ltb;

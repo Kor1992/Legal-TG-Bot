@@ -1,0 +1,13 @@
+package domain
+
+import "time"
+
+type User struct {
+	ID         int
+	TelegramID int64
+	FirstName  string
+	LastName   *string
+	Phone      *string
+	Role       string
+	CreatedAt  time.Time
+}
